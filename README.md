@@ -6,8 +6,28 @@ L’interprete deve eseguire le sequenti operazioni:
 * Eseguire il programma contenuto nel file sorgente.
 * Richiedere a console l’eventuale inserimento di dati previsto dalle istruzioni di input e visualizzare su console il risultato di espressioni previsto dalle istruzioni di output.
 
+Leggere file pdf per le specifiche complete del progetto.
 
-## App Feature & Design
+
+## Formato di input
+
+Nella seguente descrizione di grammatica libera da contesto scriviamo la produzione N → α | β come abbreviazione delle produzioni: N→α e N→β
+Utilizziamo i caratteri corsivi per definire simboli non terminali, ed i caratteri normali per definire simboli terminali. Il simbolo  denota la stringa vuota.
+Le parole chiave di questo semplice linguaggio sono SET, PRINT, INPUT, IF, WHILE per le istruzioni
+(statement); ADD, SUB, MUL, DIV per gli operatori aritmetici; LT, GT, EQ per gli operatori relazionali;
+AND, OR, NOT per gli operatori booleani, TRUE e FALSE per le relative costanti. Ad esempio, un possibile
+programma in input `e il seguente:
+(BLOCK
+(INPUT n)
+(SET result 1)
+(WHILE (GT n 0)
+(BLOCK
+(SET result (MUL result n))
+(SET n (SUB n 1)))
+)
+(PRINT result))
+Non vi sono assunzioni circa il numero di istruzioni contenute in una particolare riga, mentre spazi, tabulazioni e righe vuote non fanno parte della sintassi del programma, ma devono essere considerati come “spazio
+vuoto” e ignorati. Il programma precedente potrebbe anche essere scritto correttamente in questo modo:
 
 From a (very very) high level point of view, the app will have :
 
