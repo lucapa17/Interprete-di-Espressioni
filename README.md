@@ -1,4 +1,4 @@
-# Interprete di Espressioni
+# Interprete di Espression
 
 Questa repository contiene un inteprete di programmi per un linguaggio LISP-like contenente definizioni di variabili, istruzioni di input/output, scelte condizionali e cicli, limitato alle sole operazioni tra variabili di tipo intero.
 L’interprete deve eseguire le sequenti operazioni:
