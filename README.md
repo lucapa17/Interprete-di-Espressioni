@@ -6,7 +6,7 @@ L’interprete deve eseguire le sequenti operazioni:
 * Eseguire il programma contenuto nel file sorgente.
 * Richiedere a console l’eventuale inserimento di dati previsto dalle istruzioni di input e visualizzare su console il risultato di espressioni previsto dalle istruzioni di output.
 
-Leggere file pdf per le specifiche complete del progetto.
+* see documentation [here](2021_PAA_HomeworkSpecifiche.pdf)
 
 
 ## Formato di input
